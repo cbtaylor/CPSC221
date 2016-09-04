@@ -1,0 +1,249 @@
+
+**** Build of configuration Debug for project Working ****
+
+Nothing to build for project Working
+14:36:56 **** Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+14:37:24 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+make: Nothing to be done for `all'.
+17:23:50 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+17:24:35 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:19:17: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]
+                cout << "i: " + i << " sum: " + sum << endl;
+                        ~~~~~~^~~
+../src/helloworld.cpp:19:17: note: use array indexing to silence this warning
+                cout << "i: " + i << " sum: " + sum << endl;
+                              ^
+                        &     [  ]
+../src/helloworld.cpp:19:33: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]
+                cout << "i: " + i << " sum: " + sum << endl;
+                                     ~~~~~~~~~^~~~~
+../src/helloworld.cpp:19:33: note: use array indexing to silence this warning
+                cout << "i: " + i << " sum: " + sum << endl;
+                                              ^
+                                     &        [    ]
+2 warnings generated.
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+17:24:57 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+15:16:37 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:25:17: error: expected ';' after expression
+                A[i] = i*i + 1
+                              ^
+                              ;
+1 error generated.
+make: *** [src/helloworld.o] Error 1
+15:16:52 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+15:34:46 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:32:45: error: function definition is not allowed here
+        bool ArrayEq( int B[], int C[], int size ) {
+                                                   ^
+1 error generated.
+make: *** [src/helloworld.o] Error 1
+15:35:20 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+13:00:42 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:39:4: error: assigning to 'int *' from incompatible type 'int'
+        x = 3;
+          ^ ~
+../src/helloworld.cpp:40:4: error: assigning to 'int *' from incompatible type 'int **'; remove &
+        p = &x;
+          ^ ~~
+2 errors generated.
+make: *** [src/helloworld.o] Error 1
+13:01:33 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:36:8: warning: unused variable 'bCol' [-Wunused-variable]
+        Color bCol = black;
+              ^
+../src/helloworld.cpp:35:8: warning: unused variable 'aCol' [-Wunused-variable]
+        Color aCol = red;
+              ^
+2 warnings generated.
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+13:01:54 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:35:8: warning: unused variable 'aCol' [-Wunused-variable]
+        Color aCol = red;
+              ^
+../src/helloworld.cpp:36:8: warning: unused variable 'bCol' [-Wunused-variable]
+        Color bCol = black;
+              ^
+2 warnings generated.
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+13:02:24 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:35:8: warning: unused variable 'aCol' [-Wunused-variable]
+        Color aCol = red;
+              ^
+../src/helloworld.cpp:36:8: warning: unused variable 'bCol' [-Wunused-variable]
+        Color bCol = black;
+              ^
+2 warnings generated.
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+14:32:24 **** Build of configuration Debug for project helloworld ****
+make all 
+make: Nothing to be done for `all'.
+16:28:36 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+make: Nothing to be done for `all'.
+23:19:39 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/q1.cc
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/q1.d" -MT"src/q1.d" -o "src/q1.o" "../src/q1.cc"
+Finished building: ../src/q1.cc
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o ./src/q1.o   
+duplicate symbol _main in:
+    ./src/helloworld.o
+    ./src/q1.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [helloworld] Error 1
+23:20:23 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o ./src/q1.o   
+duplicate symbol _main in:
+    ./src/helloworld.o
+    ./src/q1.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [helloworld] Error 1
+23:21:14 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o ./src/q1.o   
+Finished building target: helloworld
+ 
+08:29:35 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:36:8: warning: unused variable 'bCol' [-Wunused-variable]
+        Color bCol = black;
+              ^
+../src/helloworld.cpp:35:8: warning: unused variable 'aCol' [-Wunused-variable]
+        Color aCol = red;
+              ^
+2 warnings generated.
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 

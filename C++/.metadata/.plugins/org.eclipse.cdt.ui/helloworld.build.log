@@ -1,0 +1,22 @@
+08:29:35 **** Incremental Build of configuration Debug for project helloworld ****
+make all 
+Building file: ../src/helloworld.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.cpp"
+../src/helloworld.cpp:36:8: warning: unused variable 'bCol' [-Wunused-variable]
+        Color bCol = black;
+              ^
+../src/helloworld.cpp:35:8: warning: unused variable 'aCol' [-Wunused-variable]
+        Color aCol = red;
+              ^
+2 warnings generated.
+Finished building: ../src/helloworld.cpp
+ 
+Building target: helloworld
+Invoking: MacOS X C++ Linker
+g++  -o "helloworld"  ./src/helloworld.o   
+Finished building target: helloworld
+ 
+
+08:29:37 Build Finished (took 1s.126ms)
+
